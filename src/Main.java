@@ -10,5 +10,6 @@ public class Main {
         hi = new HelloToImpl("Nax");
         hi.sayHello();
         ((HelloToImpl) hi).greed();
+        ((HelloToImpl) hi).greed("Astro");
     }
 }
