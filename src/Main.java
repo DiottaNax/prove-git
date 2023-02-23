@@ -8,7 +8,6 @@ public class Main {
 
     public static void main(String... args) {
         hi = new HelloToImpl("Nax");
-        hi.sayHello();
         ((HelloToImpl) hi).greed();
     }
 }
