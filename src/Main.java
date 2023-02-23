@@ -9,5 +9,6 @@ public class Main {
     public static void main(String... args) {
         hi = new HelloToImpl("Nax");
         ((HelloToImpl) hi).greed();
+        ((HelloToImpl) hi).greed("Diotta");
     }
 }
