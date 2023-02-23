@@ -7,7 +7,8 @@ public class Main {
     private static Hello hi;
 
     public static void main(String... args) {
-        hi = new HelloJava();
+        hi = new HelloToImpl("Nax");
         hi.sayHello();
+        ((HelloToImpl) hi).greed();
     }
 }
