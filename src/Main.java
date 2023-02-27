@@ -7,9 +7,9 @@ public class Main {
     private static Hello hi;
 
     public static void main(String... args) {
-        hi = new HelloToImpl("merda");
+        hi = new HelloToImpl("gioele");
         ((HelloToImpl) hi).greed();
-        ((HelloToImpl) hi).greed("del");
-        ((HelloToImpl) hi).greed("cristo");
+        ((HelloToImpl) hi).greed("santi");
+        ((HelloToImpl) hi).greed("bello");
     }
 }
