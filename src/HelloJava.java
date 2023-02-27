@@ -6,7 +6,6 @@ public class HelloJava implements Hello {
     
     @Override
     public void sayHello() {
-        Hello.greetWorld();
-        System.out.println("But also Hello Java!");
+        System.out.println("Hello Java!");
     }
 }

@@ -4,12 +4,16 @@ import src.API.Hello;
 
 public class Main {
 
-    private static Hello hi;
-
     public static void main(String... args) {
+        Hello.greetWorld();
+        new HelloJava().sayHello();
+        var hi = new HelloToImpl("Nax");
+        hi.greed();
         hi = new HelloToImpl("gioele");
-        ((HelloToImpl) hi).greed();
-        ((HelloToImpl) hi).greed("santi");
-        ((HelloToImpl) hi).greed("bello");
+        hi.greed();
+        hi.greed("santi");
+        hi.greed("bello");
+        hi.greed("Astro");
+        hi.greed("Diotta");
     }
 }
