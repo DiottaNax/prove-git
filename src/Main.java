@@ -9,10 +9,9 @@ public class Main {
         new HelloJava().sayHello();
         var hi = new HelloToImpl("Nax");
         hi.greed();
-        hi = new HelloToImpl("gioele");
+        hi = new HelloToImpl("Saint");
         hi.greed();
-        hi.greed("santi");
-        hi.greed("bello");
+        hi.greed("Gioele");
         hi.greed("Astro");
         hi.greed("Diotta");
     }
